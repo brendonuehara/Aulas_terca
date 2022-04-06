@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Oswald&display=swap&family=Lato:wght@100&display=swap');
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #f5f1f2 16.62%, #accfdf 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-titulo {
+    font-family: 'Oswald' sans-serif;
+    font-size: 22pt;   
+    font-weight: 400;
+}
+
+.principal {
+    border-top: 0.4px solid #000000;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.formulario-peso {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.formulario-info {
+    font-family: 'Lato' sans-serif;
+    font-size: 18px;
+}
+
+.formulario-input {
+    font-size: 14px;
+    border: none;
+    height: 14pt;
+    box-shadow: 4px 5px 4px rgba(104, 104, 104, 0.25);
+    box-shadow: 0 0 0 0;
+    border-radius: 10px;
+    outline: 0;
+    padding-left: 5px;
+    
+}
+
+.formulario-altura {
+    padding-bottom: 30px;
+}
+
+.formulario-botao {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botao-form:hover {
+    background-color: rgba(123, 203, 207, 0.53);
+}
+
+.botao-form {
+    background-color: #93c8cc;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    width: 180px;
+    height: 40px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 200;
+    color: #f4f6f7;
+}
