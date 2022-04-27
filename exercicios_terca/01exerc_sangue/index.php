@@ -5,55 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade Doação de Sangue</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap&family=Lato:wght@100&family=Roboto+Condensed:ital@1&display=swap&family=Lato:wght@100;400&display=swap');
-        * {
-            text-decoration: none;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-size: 100%;
-            background-color: black;
-        }
-
-        .cabecalho {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding: 24px;
-        }
-
-        .cabecalho-titulo {
-            font-size: 28px;
-            font-weight: 600;
-            font-family: 'Roboto Condensed', sans-serif;
-            color: #ffffff;
-        }
-
-        .conteudo {
-            border-top: 1px solid #FFF2E7
-        }
-
-        .conteudo-principal {           
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-direction: column;
-            gap: 30px;
-            color: white;
-            padding: 48px;
-        }
-
-        .conteudo-principal-paragrafo {
-            font-family: 'Roboto', sans-serif;
-            font-weight: 400;
-            font-size: 14px;
-        }
-
-    </style>
 </head>
 <body>
     <header class="cabecalho">
